@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 span {
+    font-family: 'Krona One', sans-serif;
+    color: yellowgreen;
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.my__products__gallery {
+    display: inline-block;
+}
+
+
+.my__products__gallery img {
+    padding: 8px;
+    width: 19%;
+    display: flex;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.my__products__gallery img:hover {
+    opacity: 1;
+}
+
+.my__products {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+.image__container img {
+    border-radius: 15px;
+    cursor: zoom-in;
+    transition: transform 2s;
+    width: 80%;
+}
+
+.image__container img:hover {
+    transform: scale(1.2);
+    
+}
+
+
+.image__container {
+    position: absolute;
+    top: 188px;
+    left: 340px;
+}
